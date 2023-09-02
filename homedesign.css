@@ -1,6 +1,6 @@
 /* 基本装飾 */
 header {
-  background: #333;
+    background: #fff;
   padding: .5rem;
   text-align: right;
 }
@@ -12,9 +12,8 @@ a {
 li {
   margin: 2rem 0;
 }
- 
 
-  /* ボタン */
+/* ボタン */
 .btn-menu {
   position: relative
 }
@@ -27,7 +26,14 @@ img{
 }
 
 img:hover{
-    opacity:0.5
+    opacity:0.5;
+    cursor: pointer;
+}
+
+img:active{
+    position:relative;
+    top:3px;
+}
  
 /* メニュー */
 nav {
@@ -38,5 +44,10 @@ nav {
   right: 0;
   overflow-x: hidden;
   text-align: center;
+  width: 0;
+  transition: width 0.3s;
+}
+
+nav.open-menu{
   width: 100%;
 }
