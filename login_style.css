@@ -1,0 +1,70 @@
+form {
+  text-align: center;
+}
+
+.login_form_btm {
+  padding: 10px 0;
+  background-color: #F7F7F7;
+  margin: 10px 0;
+}
+
+input {
+  width: 200px;
+  padding: 3px;
+  margin: 5px 0;
+}
+
+/* 基本装飾 */
+header {
+    background: #fff;
+  padding: .5rem;
+  text-align: right;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+  white-space: nowrap;
+}
+li {
+  margin: 2rem 0;
+}
+ 
+
+  /* ボタン */
+.btn-menu {
+  position: relative
+}
+img{
+    width:100px;
+    position:absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
+
+img:hover{
+    opacity:0.5;
+    cursor: pointer;
+}
+
+img:active{
+    position:relative;
+    top:3px;
+}
+ 
+/* メニュー */
+nav {
+  background: #0bd;
+  position: absolute;
+  z-index: 0;
+  top: 3.125rem;
+  right: 0;
+  overflow-x: hidden;
+  text-align: center;
+  width: 0;
+  transition: width 0.3s;
+}
+
+nav.open-menu{
+  width: 100%;
+}
